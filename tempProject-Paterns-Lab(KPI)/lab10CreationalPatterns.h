@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+void showFactoryMethodPatern();
+
 class AbstractRole
 {
 public:
@@ -57,6 +59,3 @@ public:
 
 	AbstractRole* factoryMethod() override;
 };
-
-
-void showFactoryMethodPatern();
